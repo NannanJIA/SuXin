@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+
+}
+.background{
+    width: 100%;
+    height: 758.81px;
+}
+.background img{
+    width: 100%;
+    height: 758.81px;
+}
+/*导航开始*/
+.flower-header-box {
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.flower-header {
+    width: 1170px;
+    height: 79px;
+    margin: 0 auto;
+}
+.flower-header img{
+    width: 150px;
+    height: 50px;
+    margin-top: 14.5px;
+    display: block;
+    float: left;
+}
+.flower-link{
+    width: 602px;
+    height: 79px;
+    float: right;
+}
+.flower-link a{
+    width: 86px;
+    height: 79px;
+    display: block;
+    float: left;
+    line-height: 79px;
+    text-align: center;
+}
+.flower-link1{
+    color: #16b0dc;
+    font-size: 14px;
+}
+.flower-link2{
+    color: #ffffff;
+    font-size: 14px;
+}
+.flower-link a:hover{
+    color: #16b0dc;
+}
+/*导航结束*/
+/*轮播图开始*/
+.flower-lunbo{
+    width: 100%;
+    height: 758.81px;
+    background: #b0b0b0;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.flower-left{
+    width: 203px;
+    height: 758.81px;
+    background:#000000;
+    opacity: 0.01;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.flower-left:hover{
+    background: #000000;
+    opacity: 0.2;
+}
+.flower-left i{
+    position: absolute;
+    left: 100px;
+    top: 376px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.flower-right{
+    width: 203px;
+    height: 758.81px;
+    background:#000000;
+    opacity: 0.01;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.flower-right:hover{
+    background: #000000;
+    opacity: 0.2;
+}
+.flower-right i {
+    position: absolute;
+    left: 100px;
+    top: 376px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.luobodot{
+    height: 10px;
+    width: 40px;
+    position: absolute;
+    right: 650px;
+    bottom: 35px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.luobodot1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5e7387;
+    opacity: 0.5;
+}
+.luobodot2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000000;
+    opacity: 0.4;
+}
+/*轮播图结束*/
+.flower-bottom-box{
+    width: 100%;
+    height: 604px;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.flower-bottom{
+    width: 1140px;
+    height: 604px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.flower-bottom-title{
+    width: 100%;
+    height: 43px;
+}
+.flower-bottom-title h3{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #37474f;
+}
+.flower-bottom-text{
+    width: 912px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.flower-bottom-text p{
+    color: #5e7387;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+.flower-bottom-lunbo{
+    width: 1020px;
+    height: 476px;;
+    margin-top: 50px;
+    padding: 0 60px;
+}
+.lunbo-jiantou{
+    width: 1140px;
+    height: 476px;
+    margin: 0 auto;
+    position: relative;
+}
+.icon-07jiantouxiangzuofill{
+    font-size: 36px;
+    color:#aaaaaa;
+    opacity: 0.6;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 215px;
+    box-sizing: border-box;
+    display: block;
+}
+.icon-07jiantouxiangzuofill:hover{
+    color:#aaaaaa;
+    opacity: 0.99;
+}
+.icon-xiangyou3fill:hover{
+    color:#aaaaaa;
+    opacity: 0.99;
+}
+.lunbo-jiantou i{
+    font-size: 36px;
+}
+.icon-xiangyou3fill{
+    font-size: 26px;
+    color:#aaaaaa;
+    opacity: 0.6;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 215px;
+    box-sizing: border-box;
+}
+.flower-lunbo-detail{
+    width: 320px;
+    height: 454px;
+    float: left;
+    margin-right: 30px;
+}
+.flower-lunbo-detai2{
+    width: 320px;
+    height: 454px;
+    float:right;
+}
+.flower-lunbo-img img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+.flower-lunbo-text1{
+    width: 100%;
+    height: 21px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 3px;
+}
+.flower-lunbo-text2{
+    width: 100%;
+    height: 66px;
+    text-align: center;
+    font-size: 14px;
+    color: #747474;
+    line-height: 1.5717;
+    margin-top: 15px;
+}
+.flower-xiangqing{
+    width: 320px;
+    height: 36px;
+    border-radius: 3px;
+    background: #f96868;
+    position: relative;
+}
+.flower-xiangqing:hover{
+    background:#f96868;
+    opacity: 0.85;
+}
+.flower-xiangqing i{
+    font-size: 24px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 110px;
+    top: 6px;
+    color:#670d19
+}
+.flower-xiangqing p{
+    line-height:36px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin-right: 110px;
+    float: right;
+}
+/*列表部分开始*/
+.flower-list-title h3{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.flower-bottom-title i{
+    font-size: 34px;
+    color: #00a5c4;
+    margin-left: 20px;
+}
+.flower-bottom-title i:hover{
+    font-size: 34px;
+    color: #00a5c4;
+    margin-left: 20px;
+    background: rgba(0,0,0,0.15) ;
+}
+/*列表部分开始*/
+.flower-list{
+    width: 100%;
+    height: 707px;
+    background: #f5f5f5;
+}
+.flower-list-box{
+    width: 1170px;
+    height: 552px;
+    margin: 0 auto;
+}
+.flower-list-detail{
+    width: 1170px;
+    height: 504px;
+    margin-top: 19px;
+}
+.flower-list-title i{
+    font-size: 34px;
+    color: #00a5c4;
+    margin-left: 20px;
+}
+.flower-list-title i:hover{
+    font-size: 34px;
+    color: #00a5c4;
+    margin-left: 20px;
+    background: rgba(0,0,0,0.15) ;
+}
+.flower-list-item-detail a:hover{
+    color: #2196f3;
+    text-decoration: underline;
+}
+.flower-list-item-detail{
+    width: 585px;
+    height: 96px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    float: right;
+}
+.flower-list-item-detail img{
+    width: 160px;
+    height: 96px;
+    display: block;
+    float: left;
+}
+.flower-list-text-detail{
+    width: 375px;
+    height: 96px;
+    display: block;
+    float: right;
+    color: #aaaaaa;
+}
+.flower-list-text-detail a{
+    height: 20px;
+    width: 90px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #212121;
+}
+.des{
+    height: 42px;
+    width: 375px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+.flower-list-text-more{
+    height: 21px;
+    width: 375px;
+}
+.des1{
+    width: 64.16px;
+    height: 19px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #76838f;
+}
+.des2{
+    width: 64.16px;
+    height: 19px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #76838f;
+    margin-left: 10px;
+}
+.des2 i{
+    margin-left: 10px;
+}
+.des3{
+    width: 64.16px;
+    height: 19px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #76838f;
+}
+/*列表部分结束*/
+/*底部位置开始*/
+.flower-position{
+    width: 100%;
+    height: 765px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.flower-position-box{
+    height: 765px;
+    width: 1170px;
+    margin: 0px auto;
+}
+.flower-position-text-box{
+    width: 1140px;
+    height: 672px;;
+    padding: 30px 30px;
+    margin:0px auto ;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.flower-position-text{
+    height: 272px;
+    width: 100%;
+}
+.flower-position-img{
+    height: 340px;
+    width: 100%;
+}
+.flower-position-img{
+    height: 340px;
+    width: 530px;
+    margin: 0 auto;
+}
+.flower-position-text1{
+     font-family: 微软雅黑;
+     font-size: 16px;
+     line-height:32px;
+     display: block;
+     text-align: center;
+     height: 32px;
+     width: 100%;
+     margin-bottom: 16px;
+    box-sizing: border-box;
+    color: #76838f;
+ }
+.flower-position-text2{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    line-height:32px;
+    display: block;
+    text-align: center;
+    height: 32px;
+    width: 100%;
+    color: #76838f;
+    box-sizing: border-box;
+}
+.footer-span{
+    border-top: 1px solid #F1F1F1;
+}
+/*底部位置结束*/
